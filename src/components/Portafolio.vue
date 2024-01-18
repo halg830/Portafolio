@@ -289,7 +289,6 @@ function mostrarPDF() {
 
 .links {
   text-decoration: none;
-  target: _blank;
 }
 
 @media (max-width:800px) {

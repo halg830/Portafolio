@@ -1,6 +1,6 @@
 <script setup>
 import {ref} from 'vue'
-import Portafolio from "./components/portafolio.vue";
+import Portafolio from "./components/Portafolio.vue";
 
 const secciones = ref([{ label: "Inicio", id: "sectionPresentacion" }, { label: "Sobre Mí", id: "sectionSobreMi" }, {label: "Proyectos", id:'sectionProyectos'}])
 
