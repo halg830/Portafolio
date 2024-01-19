@@ -64,7 +64,7 @@ function mostrarPDF() {
     </section>
     <div class="q-pa-md">
       <div class="row justify-center q-gutter-sm">
-        <q-intersection transition="scale" transition-duration="1000" class="example-item">
+        <q-intersection transition="scale" transition-duration="1000" once class="example-item">
           <section id="sectionSobreMi">
             <article id="artSobreMi">
               <h2>Sobre mí</h2>
@@ -90,7 +90,7 @@ function mostrarPDF() {
             </article>
           </section>
         </q-intersection>
-        <q-intersection transition="scale" transition-duration="1000" class="example-item">
+        <q-intersection transition="scale" transition-duration="2000" once class="example-item">
           <section id="sectionProyectos">
             <h2>Proyectos</h2>
             <article id="secProyectos">
