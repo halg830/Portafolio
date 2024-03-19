@@ -8,8 +8,8 @@ import logoFlutter from '../assets/logo_flutter.png'
 import iconVeterinaria from '../assets/icon_veterinaria.png'
 import iconTransporte from '../assets/icon_transporte.png'
 import iconPokedex from '../assets/icon_pokedex.png'
-import pdfCurriculum from '../assets/Curriculum_Hector_Aguilar.pdf'
-import foto from '../assets/fotoc.png'
+import pdfCurriculum from '../assets/Aguilar_Garcia_Hector_Leonardo.pdf'
+import foto from '../assets/me.jpg'
 
 const habilidades = [
   {
@@ -142,6 +142,7 @@ function mostrarPDF() {
   border-radius: 100%;
   border: 3px solid black;
   background-color: rgb(0, 225, 255);
+  max-width: 300px;
 }
 
 #presentacion>h1 {
